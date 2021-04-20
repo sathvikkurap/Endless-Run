@@ -1,0 +1,9 @@
+package inc.andy.basic2dgame1;
+
+import android.graphics.Canvas;
+
+public interface GameObject {
+    public void draw(Canvas canvas);
+
+    public void update();
+}
